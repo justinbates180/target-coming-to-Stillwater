@@ -4,7 +4,96 @@
     ViewData["Title"] = "Home page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome!</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Target | Stillwater Supercenter</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav class="main-nav">
+        <div class="nav-container">
+            <div class="logo">🎯 <span>Target</span> Stillwater</div>
+            <ul class="nav-links">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#departments">Departments</a></li>
+                <li><a href="#info">Store Info</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header id="hero" class="hero-section">
+        <div class="hero-overlay">
+            <div class="hero-text">
+                <span class="badge">Welcome to 6th & Perkins</span>
+                <h1>Your Local Stillwater Target</h1>
+                <p>Everything you love about Target, right here in the heart of Cowboy Country.</p>
+                <div class="hero-btns">
+                    <a href="#departments" class="btn-primary">View Departments</a>
+                    <a href="#info" class="btn-secondary">Store Hours</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="departments" class="section-container">
+        <div class="section-header">
+            <h2>Shop by Department</h2>
+            <p>Explore what's in stock at your local branch.</p>
+        </div>
+
+        <div class="grid">
+            <div class="dept-card">
+                <div class="card-img">
+                    <img src="c:\users\matthew\source\repos\target test2\target test2\images\target-sunset.png" alt="Target Sunset">
+                </div>
+                <div class="card-content">
+                    <h3>Local Atmosphere</h3>
+                    <p>Experience the best views in Stillwater while you shop.</p>
+                </div>
+            </div>
+
+            <div class="dept-card">
+                <div class="card-img">
+                    <img src="images/grocery.png" alt="Grocery">
+                </div>
+                <div class="card-content">
+                    <h3>Fresh Grocery</h3>
+                    <p>Produce and essentials for your weekly run.</p>
+                </div>
+            </div>
+
+            <div class="dept-card">
+                <div class="card-img">
+                    <img src="c:\users\matthew\source\repos\target test2\target test2\images\apparel.png" alt="Apparel">
+                </div>
+                <div class="card-content">
+                    <h3>OSU Gear & Apparel</h3>
+                    <p>Get ready for game day with the latest styles.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="info" class="store-footer">
+        <div class="footer-content">
+            <div class="footer-info">
+                <h3>Target Stillwater</h3>
+                <p>720 E Hall of Fame Ave<br>Stillwater, OK 74075</p>
+            </div>
+            <div class="footer-hours">
+                <h3>Store Hours</h3>
+                <p>Mon - Sun: 8:00 AM - 10:00 PM</p>
+            </div>
+        </div>
+        <div class="bottom-bar">
+            &copy; 2026 Target Test Project | Developed by Matt
+        </div>
+    </footer>
+
+</body>
+</html>
